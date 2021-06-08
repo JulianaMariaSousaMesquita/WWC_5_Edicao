@@ -22,13 +22,13 @@
 
 ## API :books:
 
-* <a href="">API 1 - Agendamento - Basic</a>
+* <a href="https://github.com/JulianaMariaSousaMesquita/WWC_5_Edicao/tree/main/WCC_API_1">API 1 - Agendamento - Basic</a>
 
-* <a href="">API 2 - Agendamento - intermediary</a>
+* <a href="https://github.com/JulianaMariaSousaMesquita/WWC_5_Edicao/tree/main/WCC_API_2">API 2 - Agendamento - intermediary</a>
 
-* <a href="https://github.com/WCC2021/Controle-Unidade">API 3 - Desafio - Gerenciador de Condominio</a>
+* <a href="https://github.com/JulianaMariaSousaMesquita/WWC_5_Edicao/tree/main/WCC_API_3">API 3 - Desafio - Gerenciador de Condominio</a>
 
-* <a href="">API 4 - Desafio - Gerenciador de Ongs</a>
+* <a href="https://github.com/JulianaMariaSousaMesquita/WWC_5_Edicao/tree/main/WCC_API_4">API 4 - Desafio - Gerenciador de Ongs</a>
 
 
 
