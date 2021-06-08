@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "9926fb25-5d6e-42b3-9626-5c08eba9dfd4",
+		"name": "WCC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Inserir usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome_cliente\" : \"Ju\",\r\n    \"servico\" :  \"Lipo\",\r\n    \"status\" :  \"agendado\",\r\n    \"data_servico\" : \"2021-05-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/agendamentos",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agendamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL - Buscar Agendamentos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/agendamentos",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agendamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar usuario por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/agendamentos/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agendamentos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar dados usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome_cliente\" : \"Pollyana\",\r\n    \"servico\" :  \"Luzes\",\r\n    \"status\" :  \"agendado\",\r\n    \"data_servico\" : \"2021-06-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/agendamentos/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agendamentos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

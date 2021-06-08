@@ -1,0 +1,33 @@
+{
+  "name": "WCC_SecondAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js",
+    "await": "node duvidas/loadSw.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JennyNolasco/WCC_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JennyNolasco/WCC_API/issues"
+  },
+  "homepage": "https://github.com/JennyNolasco/WCC_API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "sequelize": "^6.6.2"
+  }
+}

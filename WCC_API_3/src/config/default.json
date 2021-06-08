@@ -1,0 +1,12 @@
+{
+      "mysql" : {
+            "database" : "wcc_condominio_controle_unidade",
+            "user"     : "root",
+            "password" : "124578",
+            "host"     : "127.0.0.1",
+            "port"     : "3306"
+      },
+      "api" : {
+            "port":"3000"
+      }
+}
